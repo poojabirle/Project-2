@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en-US">
+   
+
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="description" content="Robofume - Machine Learning & AI Startups HTML5 Template from Themescare">
+      <meta name="keyword" content="robotics, AI, IOT, machine learning, Big Data, Startups">
+      <meta name="author" content="Themescare">
+      <!-- Title -->
+      <title>Charm</title>
+      <!-- Favicon -->
+      <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='assets/img/favicon/favicon.png') }}">
+      <!--Bootstrap css-->
+      <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/bootstrap.css') }}">
+      <!--Font Awesome css-->
+      <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/font-awesome.min.css') }}">
+      <!-- Flaticon CSS -->
+      <link rel="stylesheet" href="{{ url_for('static', filename='assets/flaticon/flaticon.css') }}">
+      <!--Magnific css-->
+      <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/magnific-popup.css') }}">
+      <!--Owl-Carousel css-->
+      <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/owl.carousel.min.css') }}">
+      <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/owl.theme.default.min.css') }}">
+      <!--Animate css-->
+      <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/animate.min.css') }}">
+      <!-- slicknav css -->
+      <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/slicknav.min.css') }}">
+      <!--Site Main Style css-->
+      <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/style.css') }}">
+      
+      <!--Responsive css-->
+      <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/responsive.css') }}">
+   </head>
+   <body>
+       
+       
+      <!-- Start Preloader -->
+      <div id="preloader">
+         <div class="preload-content">
+            <div id="dream-load"></div>
+         </div>
+      </div>
+      <!-- End Preloader -->
+       
+       
+      <!--Header Section Start-->
+      <header class="header-area animated">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12 d-flex align-items-center justify-content-between">
+                  <div class="logo-area scroll-hide-logo">
+                     <a href="/"><img src="{{ url_for('static', filename='assets/img/logo/5.png') }}" alt="logo" class="logo"></a>
+                  </div> 
+                  <div class="logo-area scroll-show-logo">
+                     <a href="/"><img src="{{ url_for('static', filename='assets/img/logo/6.png') }}" alt="logo"></a>
+                  </div> 
+                  <div class="logo-area scroll-show-logo">
+                     <a href="/chat"><span class="underline"
+                           style="font-size: 1.8rem; color: #4B9FE1; word-spacing: 6px;"><b>WELCOME TO CHARM</b></span></a>
+                  </div>
+                  <div class="menu-area d-flex justify-content-end align-items-center">
+                     <div class="mobile-menu"></div>
+                     <div class="main-menu">
+                        <nav class="menu-box">
+                           <ul class="nav-menu" id="mobile-menu">
+                              <li><a href="/">Home</a></li>
+                              <li class="dropdown">
+                                 <a href="javascript:;">Pages</a>
+                                 <ul>
+                                    <li><a href="/about">About Us</a></li>
+                                    <li><a href="/team">Team Member</a></li>
+                                 </ul>
+                              </li>
+                              <li><a href="/service">Features</a></li>
+                              <li><a href="/contact">Contact</a></li>
+                              <li class="mini-cart">
+                                 <a class="cart-icon" href="/chat" style="font-size: 16px;">C.H.A.R.M</a>
+                              </li>
+                           </ul>
+                        </nav>
+                     </div>
+                     <div class="right-bar-icon ml-4">
+                        <ul>
+                           
+                           <li class="search-option">
+                              <a class="search-toggle" href="javascript:;"><i class="fa fa-search"></i></a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!--Header Section End-->
+       
+       
+      <!-- Breadcrumb Start -->
+      <section class="breadcrumb-area">
+         <div class="breadcrumb-shape"></div>
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="breadcrumb-inn">
+                     <div class="section-title wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+                        <h2><span>About Us</span></h2>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Breadcrumb End -->
+       
+       
+      <!-- About Page Section Start -->
+      <section class="about-page-section section_100">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="section-title wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+                     <h2> India's New <span>Innovation</span><br>And Future</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row align-items-center">
+               <div class="col-lg-12">
+                  <div class="about-page-text wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.6s">
+                     <p><b>C.H.A.R.M </b>(<b>C</b>omputerised <b>H</b>ardware <b>A</b>utomated <b>R</b>eception <b>M</b>anager) is a computerised robotic program that simulates and processes human conversation (either written or spoken), allowing us to interact with digital devices as if we are communicating with a real person. It is built with the objective of monitoring the reception area of our Institute with  certain features that aim to have conversation with individuals,  interact with them and display details of college as per their requirement. All Of Our team members have faced this kind of issues in our college that's why we thought of this. In simple words our robot is built in such a way that it will help students in providing the information related to the institute.</p><br> 
+                        <p>Well this project has helped us gain skills in domain of web development till now and also some kind of work experience of working as a team which helps us in improvment of leadership skills, team work and an environment of work which we assume is as similar as working for a company.The main motive is to get proficient in technologies and gain knowledge about hardware and software. Since we all belong to different branches of engineering, we have always willing to enhance our skills- set thus this project gave us opportunity to upgrade on the same and deepen our knowledge on various technologies. In addition to software , this project gave us exposure to know about hardware and increase our learnings in it.</p><br>
+                      <p> <b>CHARM</b> has encourged us in learning software languages such as Python which will help us later in the inception of Artficial Intelligence and Machine Learning in the field of Robotics.  Our Initiative to this project of CHARM will be of great help for everyone who want to get immediate response of the questions asked with a short description of the query. CHARM has been programmed in such a sophisticated way that it will be charming and attractive enough with his facial expressions and voice that everyone is willing to see in a robot. CHARM is a combination of automated processes and various technologies in the field of Artificial Intelligence, Machine Learning, Robotics, Electronics,Computer Science and Web Development which makes it facinating with all the features that a robotic chatbot should have. This investment in a robotic chatbot would be appreciable as this could work in any domain which includes Q&A with satisfying replies. We all are so grateful to be in this project, that we got to explore various kind of technologies out of our branches and get to learn so many things which would definately gonna give an ease hand to students and society.</p>
+                     <a class="btn-simple mt-4" href="#">Explore More <i class="fa fa-long-arrow-right"></i></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- About Page Section End -->
+       
+       
+      <!-- About Post Section Start -->
+      <section class="about-post-section section_b_70">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6 col-lg-4">
+                  <div class="single-about-post wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
+                     <div class="about-post-image">
+                        <img src="{{ url_for('static', filename='assets/img/about-post-1.jpg') }}" alt="blog image" />
+                     </div>
+                     <div class="about-post-text">
+                        <h3>If you're having trouble coming up with</h3>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-6 col-lg-4">
+                  <div class="single-about-post wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.4s">
+                     <div class="about-post-image">
+                        <img src="{{ url_for('static', filename='assets/img/about-post-2.jpg') }}" alt="blog image" />
+                     </div>
+                     <div class="about-post-text">
+                        <h3>what are those Steps to be a Successful developer</h3>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-6 col-lg-4">
+                  <div class="single-about-post wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+                     <div class="about-post-image">
+                        <img src="{{ url_for('static', filename='assets/img/about-post-3.jpg') }}" alt="blog image" />
+                     </div>
+                     <div class="about-post-text">
+                        <h3>details about Apple’s new iPad Pro models</h3>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- About Post Section End -->
+       
+       <!-- Testimonial Section Start -->
+   <section class="testimonial-section section_b_100">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-12">
+               <div class="section-title wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+                  <h2>Some <span>reviews</span> from <br> our clients</h2>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-lg-12">
+               <div class="testimonial-pos">
+                  <h3>feedback</h3>
+               </div>
+            </div>
+            <div class="col-md-12">
+               <div class="testimonial-slider owl-carousel">
+                  <div class="testimonial-item ">
+                     <div class="row">
+                        <div class="col-md-4">
+                           <div class="client-image">
+                              <img src="{{ url_for('static', filename='assets/img/Testimonials/feedback1.jpg') }}" alt="testimonial" />
+                           </div>
+                           <div class="testimonial-body">
+                              <p>The charm robot is a Raspberry Pi based Robot that identifies different human motions and reacts to those motions. The vision of charm robot is that future industrial robots will assist people in the workplace ,support workers in a variety of tasks, improve the quality of customer satisfaction and increased productivity. </p>
+                           </div>
+                           <div class="testimonial-meta">
+                              <h3>Deepansh Paliwal</h3>
+                              <ul>
+                                 <li><i class="fa fa-star"></i></li>
+                                 <li><i class="fa fa-star"></i></li>
+                                 <li><i class="fa fa-star"></i></li>
+                                 <li><i class="fa fa-star"></i></li>
+                                 <li><i class="fa fa-star-half-o"></i></li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="col-md-4">
+                           <div class="client-image">
+                              <img src="{{ url_for('static', filename='assets/img/Testimonials/feedback2.jpg') }}" alt="testimonial" />
+                           </div>
+                           <div class="testimonial-body">
+                              <p>The Charm robot is a Raspberry Pi based robot with the main motto to give valid information and guidance that a person is looking for at reception. Charm will give satisfactory services and answers to every query as well as work as an assistant. The Charm robot will play a huge role in market as it will minimize the blunder and Chaos created during the busy hours and will satisfy the person with its service.
+                              </p>
+                           </div>
+                           <div class="testimonial-meta">
+                              <h3>Anjali Yadav</h3>
+                              <ul>
+                                 <li><i class="fa fa-star"></i></li>
+                                 <li><i class="fa fa-star"></i></li>
+                                 <li><i class="fa fa-star"></i></li>
+                                 <li><i class="fa fa-star"></i></li>
+                                 <li><i class="fa fa-star-half-o"></i></li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="col-md-4">
+                           <div class="client-image">
+                              <img src="{{ url_for('static', filename='assets/img/Testimonials/feedback3.jpg') }}" alt="testimonial" />
+                           </div>
+                           <div class="testimonial-body">
+                              <p>In the world of advancement, people or customers demand quick and reliable services.
+                                 Technology is helping to achieve this task at a good pace. Charm robot, a Raspberry Pi
+                                 based robot contributes to this pace by providing information to people at the reception. The
+                                 robot will be an efficient method to solve queries of people in a quick and accurate manner.
+                                 It will increase the efficiency and productivity of a system.
+                                 </p>
+                           </div>
+                           <div class="testimonial-meta">
+                              <h3>Kushagra Agrawal</h3>
+                              <ul>
+                                 <li><i class="fa fa-star"></i></li>
+                                 <li><i class="fa fa-star"></i></li>
+                                 <li><i class="fa fa-star"></i></li>
+                                 <li><i class="fa fa-star"></i></li>
+                                 <li><i class="fa fa-star-half-o"></i></li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="testimonial-item">
+                     <div class="row">
+                        <div class="col-md-4">
+                           <div class="client-image">
+                              <img src="{{ url_for('static', filename='assets/img/Testimonials/feedback4.jpg') }}" alt="testimonial" />
+                           </div>
+                           <div class="testimonial-body">
+                              <p>We are living in the era of robots, technology and their advancement and on that note this charm robot is basically a boon for people having old in night shifts at the reception desk it is made using Raspberry Pi which will increase the productivity of an organization by solving all the queries in very less time and without any delay.</p>
+                           </div>
+                           <div class="testimonial-meta">
+                              <h3>Sakshi Patidar</h3>
+                              <ul>
+                                 <li><i class="fa fa-star"></i></li>
+                                 <li><i class="fa fa-star"></i></li>
+                                 <li><i class="fa fa-star"></i></li>
+                                 <li><i class="fa fa-star"></i></li>
+                                 <li><i class="fa fa-star-half-o"></i></li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="col-md-4">
+                           <div class="client-image">
+                              <img src="{{ url_for('static', filename='assets/img/Testimonials/feedback5.jpeg') }}" alt="testimonial" />
+                           </div>
+                           <div class="testimonial-body">
+                              <p>The charm robot is certainly the thing you need when you enter in an unknown place. It feels more comfortable when you get heard at your first call and that too with a complete answer. No matter what time it is you can expect to get your answer and queries solved at once. With coming need of the hour this innovative robot would surely revolutionize the way you get heard at the reception. </p>
+                           </div>
+                           <div class="testimonial-meta">
+                              <h3>Adil Shaikh</h3>
+                              <ul>
+                                 <li><i class="fa fa-star"></i></li>
+                                 <li><i class="fa fa-star"></i></li>
+                                 <li><i class="fa fa-star"></i></li>
+                                 <li><i class="fa fa-star"></i></li>
+                                 <li><i class="fa fa-star-half-o"></i></li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="col-md-4">
+                           <div class="client-image">
+                              <img src="{{ url_for('static', filename='assets/img/Testimonials/feedback6.jpg') }}" alt="testimonial" />
+                           </div>
+                           <div class="testimonial-body">
+                              <p>Charm robot is a great and new addition in list of robots made in AITR, it is a raspberry Pi based robot which is basically used for data collection and analysis. It will chiefly work to reduce the manual work that is done usually and will also help to manage time. Moreover it is a great innovation for a better regulation of any organisation. </p>
+                           </div>
+                           <div class="testimonial-meta">
+                              <h3>Purvi Tiwari</h3>
+                              <ul>
+                                 <li><i class="fa fa-star"></i></li>
+                                 <li><i class="fa fa-star"></i></li>
+                                 <li><i class="fa fa-star"></i></li>
+                                 <li><i class="fa fa-star"></i></li>
+                                 <li><i class="fa fa-star-half-o"></i></li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+       
+      <!-- Subscribe Start -->
+   <section class="subscribe-section section_100">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-12">
+               <div class="subscribe-box wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+                  <div class="section-title">
+                     <h2>Follow Us On<span> Instagram </span></h2>
+                  </div>
+                  <form>
+                     <input type="email" placeholder="Email Address" />
+                     <button type="submit">Subscribe</button>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- Subscribe End -->
+       
+       
+     <!-- Footer Start -->
+   <footer class="footer-section">
+      <!-- Footer Top Start -->
+      <div class="footer-top">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-4 col-md-6">
+                  <div class="single-footer wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
+                     <div class="footer-logo">
+                        <a href="/"><img src="{{ url_for('static', filename='assets/img/logo/6.png') }}" alt="logo"></a>
+                     </div>
+                     <p>Transmute </span><span >imagination into innovation</span> and make invention</p>
+                     <ul class="footer-social">
+                        <li><a href="#" class="tw"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#" class="fb"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#" class="ln"><i class="fa fa-linkedin"></i></a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-lg-5 col-md-6">
+                  <div class="row">
+                     <div class="col-lg-6 col-md-6">
+                        <div class="single-footer wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.4s">
+                           <h3>Quick Link</h3>
+                           <ul>
+                              <li><a href="/home">Home</a></li>
+                              <li><a href="/about">About Us </a></li>
+                              <li><a href="/team">Team Member </a></li>
+                              <li><a href="/contact">Contact </a></li>
+                              <li><a href="/">Documentation </a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="col-lg-6 col-md-6">
+                        <div class="single-footer wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+                           <h3>Feature</h3>
+                           <ul>
+                              <li><a href="/service">Image Processing</a></li>
+                              <li><a href="/service">Face Recognition</a></li>
+                              <li><a href="/service">Data Visualisation</a></li>
+                              <li><a href="/service">Virtual Reality</a></li>
+                              <li><a href="/service">Video Analytics</a></li>
+                              <li><a href="/service">Robotics And Drones</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-6">
+                  <div class="single-footer wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.6s">
+                     <h3>Contact Us</h3>
+                     <ul class="footer-contact-info">
+                        <li>Acropolis Institute<br>
+                           Bypass Road, Manglia Square, Manglia,<br>
+                           Indore, Madhya Pradesh - 453771<br>
+                           India</li>
+                        <li><span>Email:</span> <a href="mailto:hello@example.com">info@acropolis.in</a></li>
+                        <li><span>Phone:</span> <a href="tel:+44587154756">0731-4730000, 4730001</a></li>
+                        <li><span>Fax:</span> <a href="tel:+557854578964">0731-4730011</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Footer Top End -->
+
+      <!-- Footer Bottom Start -->
+      <div class="footer-bottom">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="copyright wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
+                     <p>&copy; 2022 C.H.A.R.M -<span> Acropolis</span></p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Footer Bottom End -->
+   </footer>
+   <!-- Footer End -->
+
+
+   <!-- Search Overlay -->
+   <div class="search-overlay">
+      <div class="d-table">
+         <div class="d-table-cell">
+            <div class="search-overlay-layer"></div>
+            <div class="search-overlay-layer"></div>
+            <div class="search-overlay-layer"></div>
+            <div class="search-overlay-close">
+               <span class="search-overlay-close-line"></span>
+               <span class="search-overlay-close-line"></span>
+            </div>
+            <div class="search-overlay-form">
+               <form>
+                  <input type="text" class="input-search" placeholder="Search here...">
+                  <button type="submit"><i class="fa fa-search"></i></button>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- End Search Overlay -->
+
+
+   <!--Jquery js-->
+   <script src="{{ url_for('static', filename='assets/js/jquery.min.js') }}"></script>
+   <!-- Popper JS -->
+   <script src="{{ url_for('static', filename='assets/js/popper.min.js') }}"></script>
+   <!--Bootstrap js-->
+   <script src="{{ url_for('static', filename='assets/js/bootstrap.min.js') }}"></script>
+   <!--Owl-Carousel js-->
+   <script src="{{ url_for('static', filename='assets/js/owl.carousel.min.js') }}"></script>
+   <!-- Slicknav Js -->
+   <script src="{{ url_for('static', filename='assets/js/jquery.slicknav.min.js') }}"></script>
+   <!--Magnific js-->
+   <script src="{{ url_for('static', filename='assets/js/jquery.magnific-popup.min.js') }}"></script>
+   <!-- Counter JS -->
+   <script src="{{ url_for('static', filename='assets/js/jquery.counterup.min.js') }}"></script>
+   <!-- Way Points JS -->
+   <script src="{{ url_for('static', filename='assets/js/waypoints-min.js') }}"></script>
+   <!--Wow js-->
+   <script src="{{ url_for('static', filename='assets/js/wow.min.js') }}"></script>
+   <!--Main js-->
+   <script src="{{ url_for('static', filename='assets/js/main.js') }}"></script>
+   </body>
+
+
+</html>
+
